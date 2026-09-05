@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegbede Gabriel | Personal Portfolio</title>
+    <style>
+        /* Creates the infinite horizontal scrolling news ticker effect at the bottom */
+        @keyframes breakingNewsTicker {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f6; color: #333333; margin: 0; padding: 0; display: flex; flex-direction: column; min-height: 100vh;">
+
+    <!-- GTBank Inspired Navigation Header -->
+    <header style="background-color: #ffffff; color: #333333; padding: 20px; text-align: center; border-bottom: 4px solid #E04403; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+        <nav style="margin: 0 auto; display: flex; justify-content: center; gap: 30px;">
+            <a href="#about" style="color: #333333; text-decoration: none; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">About</a>
+            <a href="#education" style="color: #333333; text-decoration: none; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Education</a>
+            <a href="#interests" style="color: #333333; text-decoration: none; font-weight: bold; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Interests</a>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <main style="max-width: 750px; width: 90%; margin: 30px auto; padding: 30px; background-color: #ffffff; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-top: 5px solid #E04403; flex: 1;">
+        
+        <!-- Centered Profile Image Header (GTBank Square-Ring Style Accordance) -->
+        <section style="text-align: center; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #eef0f2;">
+            <div style="width: 130px; height: 130px; margin: 0 auto 15px auto; border-radius: 50%; border: 4px solid #E04403; padding: 4px; background-color: #ffffff; display: flex; align-items: center; justify-content: center; overflow: hidden; box-shadow: 0 4px 8px rgba(224, 68, 3, 0.15);">
+                <!-- Profile Avatar Image Placeholder -->
+                <img src="https://flaticon.com" alt="Elegbede Gabriel" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+            </div>
+            <h1 style="margin: 0; font-size: 1.8rem; color: #111111; font-weight: 700;">Elegbede Gabriel Oluwaseyifunmi</h1>
+            <p style="margin: 5px 0 0 0; color: #E04403; font-weight: bold; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1.5px;">Computer Science Portfolio</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" style="margin-bottom: 35px;">
+            <h2 style="color: #E04403; margin-top: 0; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 1px; border-bottom: 2px solid #E04403; padding-bottom: 5px; display: inline-block;">About Me</h2>
+            <p style="font-size: 1rem; line-height: 1.65; color: #444444; margin: 12px 0 0 0;">
+                Welcome to my portfolio! My name is <strong>Elegbede Gabriel Oluwaseyifunmi</strong>. I am a 24-year-old developer focused on expanding my technical horizons, exploring emerging programming languages, and diving deep into systemic backend architectures.
+            </p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" style="margin-bottom: 35px;">
+            <h2 style="color: #E04403; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 1px; border-bottom: 2px solid #E04403; padding-bottom: 5px; display: inline-block; margin-top: 0;">Academic Background</h2>
+            
+            <div style="background-color: #fff9f6; padding: 18px; margin-top: 15px; margin-bottom: 15px; border-radius: 4px; border-left: 4px solid #E04403; border-right: 1px solid #fcebe3; border-top: 1px solid #fcebe3; border-bottom: 1px solid #fcebe3;">
+                <h3 style="margin: 0; color: #111111; font-size: 1.05rem;">University of Ibadan (UI)</h3>
+                <p style="margin: 3px 0 0 0; font-weight: bold; color: #E04403; font-size: 0.85rem;">B.Sc. Computer Science | 200 Level</p>
+                <p style="margin: 10px 0 0 0; font-size: 0.9rem; color: #555555; line-height: 1.5;">Refining foundational software engineering concepts, algorithmic logic systems, and web frameworks infrastructure.</p>
+            </div>
+
+            <div style="background-color: #fafafa; padding: 18px; border-radius: 4px; border-left: 4px solid #555555; border-right: 1px solid #eaeaea; border-top: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea;">
+                <h3 style="margin: 0; color: #111111; font-size: 1.05rem;">The Federal Polytechnic, Ilaro</h3>
+                <p style="margin: 3px 0 0 0; font-weight: bold; color: #555555; font-size: 0.85rem;">Ordinary National Diploma (OND) in Computer Science</p>
+                <p style="margin: 10px 0 0 0; font-size: 0.9rem; color: #555555; line-height: 1.5;">Completed comprehensive training mechanics in software development pipelines, system configurations, and baseline information data cycles.</p>
+            </div>
+        </section>
+
+        <!-- Cybersecurity / Interests Section -->
+        <section id="interests" style="margin-bottom: 40px;">
+            <h2 style="color: #E04403; font-size: 1.25rem; text-transform: uppercase; letter-spacing: 1px; border-bottom: 2px solid #E04403; padding-bottom: 5px; display: inline-block; margin-top: 0;">Future Focus & Ambitions</h2>
+            <p style="font-size: 1rem; line-height: 1.65; color: #444444; margin: 12px 0 0 0;">
+                I am deeply passionate about transitioning into the <strong>Cybersecurity</strong> infrastructure layer. My absolute goal is to apply structural defense architectures across core enterprise nodes, execute clean security vulnerability validations, and preserve data ecosystem patterns securely.
+            </p>
+        </section>
+
+        <!-- JavaScript Interactive Verification Module -->
+        <section style="background-color: #111111; padding: 22px; border-radius: 4px; text-align: center; color: #ffffff;">
+            <h3 style="margin-top: 0; color: #E04403; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px;">Interactive Access Module</h3>
+            <p style="font-size: 0.85rem; margin-bottom: 15px; color: #cccccc;">Simulating baseline security network validation. Input the secure sequence code below.</p>
+            
+            <input type="text" id="flagInput" placeholder="Try typing 'cyber'" style="padding: 10px; font-size: 0.9rem; border-radius: 2px; border: 1px solid #333333; background-color: #222222; color: #ffffff; outline: none; margin-bottom: 12px; width: 80%; max-width: 240px; text-align: center;">
+            <br>
+            <button onclick="checkFlag()" style="background-color: #E04403; color: #ffffff; border: none; padding: 10px 24px; font-size: 0.85rem; font-weight: bold; border-radius: 2px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px;">
+                Verify Code
+            </button>
+            <p id="secretMessage" style="margin-top: 15px; font-weight: bold; min-height: 18px; font-size: 0.9rem;"></p>
+        </section>
+
+    </main>
+
+    <!-- TV News Broadcast Style Ticker Footer Bar -->
+    <footer style="background-color: #E04403; padding: 14px 0; overflow: hidden; width: 100%; white-space: nowrap; box-shadow: 0 -2px 10px rgba(0,0,0,0.1);">
+        <div style="display: inline-block; padding-left: 100%; animation: breakingNewsTicker 12s linear infinite; font-size: 1rem; font-weight: bold; color: #ffffff; letter-spacing: 1px;">
+            Thank you for Viewing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for Viewing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for Viewing
+        </div>
+    </footer>
+
+    <!-- JavaScript Logic Control Module -->
+    <script>
+        function checkFlag() {
+            const inputVal = document.getElementById('flagInput').value.trim().toLowerCase();
+            const messageEl = document.getElementById('secretMessage');
+            
+            if (inputVal === 'cyber') {
+                messageEl.innerText = "🔓 ACCESS GRANTED: 'Secure the code, protect the future.'";
+                messageEl.style.color = "#E04403";
+            } else if (inputVal === "") {
+                messageEl.innerText = "⚠️ Sequence key required.";
+                messageEl.style.color = "#ff4444";
+            } else {
+                messageEl.innerText = "🔒 AUTHENTICATION REJECTED. Enter correct keyword: 'cyber'";
+                messageEl.style.color = "#ff4444";
+            }
+        }
+    </script>
+</body>
+</html>
